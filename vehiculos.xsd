@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="coches">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="marca"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="marca">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="modelo"/>
+			</xs:sequence>
+			<xs:attribute name="nombre" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="modelo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="nombre"/>
+				<xs:element maxOccurs="unbounded" ref="velocidad"/>
+				<xs:element maxOccurs="unbounded" ref="cilindrada"/>
+				<xs:element maxOccurs="unbounded" ref="potencia"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="consumo"/>
+				<xs:element maxOccurs="unbounded" ref="co2"/>
+				<xs:element maxOccurs="unbounded" ref="combustible"/>
+			</xs:sequence>
+			<xs:attribute name="nombre" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nombre" type="xs:string"/>	
+	<xs:element name="velocidad" type="xs:string"/>
+	<xs:element name="cilindrada" type="xs:string"/>
+	<xs:element name="potencia" type="xs:string"/>
+	<xs:element name="consumo" type="xs:string"/>
+	<xs:element name="co2">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:totalDigits value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="combustible">
+		<xs:simpleType>
+			<xs:restriction base="xs:NMTOKEN">
+				<xs:enumeration value="Gasolina"/>
+				<xs:enumeration value="Diesel"/>
+				<xs:enumeration value="Electrico"/>
+				<xs:enumeration value="Gasolina-Electrico"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>
