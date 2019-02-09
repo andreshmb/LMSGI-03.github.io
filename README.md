@@ -15,4 +15,4 @@ datos, o una parte de ellos y que como mínimo tiene que contener unos 20 nodos 
 
 #### Se han de publicar los documentos **.xml, .dtd, .xsd** en un repositorio en **GitHub**e indicar en el **Readme.md** la fuente donde hemos extraido los datos para componer el documento **XML**.
 >Una vez creados los documentos subir la **URL** del repositorio a la  [plataforma online](http://fpadistancia.caib.es/mod/url/view.php?id=80234) .
->>URL GitHub Proyecto Basico [XML](https://github.com/andreshmb/LMSGI-03)
+>>URL GitHub Proyecto Basico [XML](https://github.com/andreshmb/LMSGI-03.github.io.git)
