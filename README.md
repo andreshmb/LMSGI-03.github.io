@@ -3,13 +3,13 @@
 
 ### Creacion y Validacion de un Doccumento XML
 
-#### La tarea indica que busquemos una base de datos que esté publicadaen internet y desde esa base de datos creemos:
+**En la tarea nos indica que busquemos una base de datos que esté publicada en internet y desde esa base de datos creemos:
 
-- Un documento **XML** válido que contenga los datos que hayamos encontrado en la base de 
-datos, o una parte de ellos y que como mínimo tiene que contener unos 20 nodos de información.
+- Un documento *XML* válido que contenga los datos que hayamos encontrado en la base de 
+datos, o una parte de ellos y que como mínimo contenga unos 20 nodos de información.
 
-  Los datos que contendrá el documento XML lo conseguiré desde la ***Web*** www.autobild.es/, en donde crearemos un documento con unos **30 nodos**, correspondiendose con una parte de las marcas de vehiculos de coches que hay en esta Web y en donde pondremos la informacion de varios modelos de cada marca, reflejando parte de sus caracteristicas.
-  El documento lo hemos creado con el editor *Editix* y lo hemos comprobado con el editor *Brackets*, el cual hemos llamado **vehiculos.xml**
+  Los datos que contendrá el documento *XML* los voy a extraer desde la *Web* www.autobild.es, en donde crearé un documento *xml* con unos **30 nodos**, los cuales se corresponden con una parte de la informacion de las marcas de vehiculos de coches que hay en esta Web y en donde pondremos la informacion de varios modelos de cada marca, reflejando parte de sus caracteristicas.
+  El documento lo hemos creado con el editor *Editix* y lo hemos comprobado con el editor *Brackets*, el documento se denomina **vehiculos.xml** el cual puede verse a continuación.
   
   Captura de pantalla documento *XML desde Firefox*:
   
@@ -20,7 +20,7 @@ datos, o una parte de ellos y que como mínimo tiene que contener unos 20 nodos 
 - Un documento *.dtd* que corresponda al *XML* anterior, el cual validará respecto a este *DTD*.
 
 
-El documento lo crearemos con *Editix* el cual nos refleja los posibles errores de sintaxis y para la captura de pantalla usaremos *Brackets*.
+El documento lo crearemos con *Editix* el cual nos refleja los posibles errores de sintaxis lo denominaremos *vehiculos.dtd* y para la captura de pantalla usaremos *Brackets*.
 
 Captura de pantalla documento *.dtd desde Brackets*:
 
@@ -30,7 +30,7 @@ Captura de pantalla documento *.dtd desde Brackets*:
 
 - Un documento *.xsd* correspondiente al *XML*. El documento *XML* validará respecto a este esquema.
 
-El documento xsd lo crearemos con *Editix* el cual nos detecta los errores de sintaxis con respecto al documento *.xsd*, la captura de pantalla a continuación la hemos realizado con *Brackets* para que se vea el documento en su totalidad.
+El documento *.xsd* lo crearemos con *Editix* el cual nos detecta los errores de sintaxis con respecto al documento *.xml* el cual lo denominaremos *vehiculos.xsd*, la captura de pantalla a continuación la hemos realizado con *Brackets* y para que se vea el documento en su totalidad hemos reducido la fuente de escritura.
 
 Captura de pantalla documento *.xsd desde Brackets*:
 
